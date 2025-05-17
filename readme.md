@@ -67,12 +67,12 @@ curl -X POST "http://localhost:5000/extract-text" \
 
 ### Expected Response:
 ```json
-{"error":"No base64 image string provided"}
+{"extracted_text":"fMHYW"}
 ```
 
 ## Troubleshooting
 
-- **Captcha Solver Issues**: Ensure the Python server is running and accessible at `http://localhost:5001`.
+- **Captcha Solver Issues**: Ensure the Python server is running and accessible at `http://localhost:5000`.
 
 ---
 
